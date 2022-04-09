@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPattern.CreationalDesignPattern
+namespace DesignPattern.CreationalDesignPattern.FactoryDesignPattern
 {
     /*
         - A factory is an object which is used for creating other objects
@@ -156,5 +156,11 @@ namespace DesignPattern.CreationalDesignPattern
             ClientMethodWithFactoryPattern(cardType); //With Factory
             Console.ReadLine();
         }
+
+        /*
+            - Problems with Factory Pattern
+                1. If we need to add any new product (i.e. new credit card) then we need to add a new if else condition
+                2. We also have a tight coupling between the Factory (CreditCardFactory) class and product classes (MoneyBack, Titanium, and Platinum).
+         */
     }
 }
