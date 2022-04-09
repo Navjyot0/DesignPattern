@@ -5,7 +5,7 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>DesignPattern.CreationalDesignPattern.FactoryMethodDesignPattern.Program</StartupObject>
+    <StartupObject>DesignPattern.CreationalDesignPattern.SingletonPattern.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
