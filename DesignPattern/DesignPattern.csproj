@@ -5,11 +5,20 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <StartupObject>DesignPattern.CreationalDesignPattern.SingletonPattern.Program</StartupObject>
+    <StartupObject>namespace DesignPattern.StructuralDesignPattern.AdapterDesignPattern.RealTimeExample.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="BehavioralDesignPattern\" />
+    <Folder Include="InversionOfControl\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.3" />
   </ItemGroup>
 
 </Project>

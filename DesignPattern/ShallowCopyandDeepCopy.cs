@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 /*
     Shallow copy
-
     - In the case of Shallow copy, it will create the new object from the existing object and then copying the 
       value type fields of the current object to the new object.
     - But in the case of reference type, it will only copy the reference, not the referred object itself.
